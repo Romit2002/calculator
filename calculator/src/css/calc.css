@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(160, 153, 238);
+  }
+  h1{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+  }
+  .histSpan{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 5000;
+    padding: 4px;
+    
+  }
+  .histSpan:hover{
+    border: solid black 2px;
+    border-radius: 4px;
+    color: red;
+    background-color: aliceblue;
+  }
+  .screen{
+    background-color: lightgrey;
+    border: solid black 2px;
+    color: black;
+    font-size: medium;
+    width: 101.8%;
+    cursor: default;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 50px;
+  }
+  input[type='button']:hover{
+    background-color: #5864ee;
+  }
+  input[type='button']:active{
+    background-color: rgb(61, 2, 222);
+  }
+  .operator{
+    background-color: #0BDA51;
+    padding: 5px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  .number{
+    padding: 5px;
+    height: 40px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #08b3ec;
+  }
+  .decimal{
+    background-color: #0ffff3;
+    padding: 5px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  .clear{
+    background-color: red;
+    padding: 5px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    height: 42px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 50px;
+  }
+  .equal{
+    background-color: #0ffff3;
+    padding: 5px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  .container{
+    background-color: white;
+    padding: 15px;
+    color: black;
+    border: solid black 2px;
+    width: 50%;
+    display: block;
+    align-self: center;
+    border-radius: 20px;
+    margin: 100px auto;
+    box-shadow: 5px 10px 20px black;
+  }
+  .containerup{
+    background-color: white;
+    padding: 15px;
+    color: black;
+    border: solid black 2px;
+    width: 50%;
+    height: 50%;
+    /* display: block; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-self: center;
+    border-radius: 20px;
+    margin: 100px auto;
+    box-shadow: 5px 10px 20px black;
+    position: fixed;
+  }
+  table{
+    width: 100%;
+  }
+  .model-wrapper{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(189, 189, 189, 0.9);
+  }
